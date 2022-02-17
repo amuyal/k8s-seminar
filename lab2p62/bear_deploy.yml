@@ -16,4 +16,4 @@ spec:
     - name: bear containet
       image: supergiantkir/animals:bear
       ports:
-      - port: 80
+      - containerPort: 80
