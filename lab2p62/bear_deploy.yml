@@ -17,4 +17,3 @@ spec:
       image: supergiantkir/animals:bear
       ports:
       - port: 80
-        targetPort: 80
