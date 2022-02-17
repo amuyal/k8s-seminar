@@ -7,6 +7,6 @@ spec:
     selector:
     app: spring # Run on any pod with label - app: myapp
  ports: # Map incoming port to target port
- - name: http # Setting multiple ports listterns
+ - name: spring # Setting multiple ports listterns
  port: 80
  targetPort: 8080
