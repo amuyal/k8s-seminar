@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
- name: bear deploy
+ name: bear_deploy
 spec:
  selector:
   matchLabels:
