@@ -13,7 +13,7 @@ spec:
       app: bear
   spec:
     containers:
-    - name: bearContainer
+    - name: bear
       image: supergiantkir/animals:bear
       ports:
       - containerPort: 80
