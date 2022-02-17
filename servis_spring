@@ -5,8 +5,8 @@ metadata:
 spec:
     type : LoadBalancer
     selector:
-    app: spring # Run on any pod with label - app: myapp
- ports: # Map incoming port to target port
- - name: spring # Setting multiple ports listterns
- port: 80
- targetPort: 8080
+        app: spring # Run on any pod with label - app: myapp
+    ports: # Map incoming port to target port
+    - name: spring # Setting multiple ports listterns
+        port: 80
+        targetPort: 8080
